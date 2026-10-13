@@ -77,9 +77,7 @@ function renderHero() {
 
         <div class="hero-avatar-wrap reveal reveal-delay-2">
           <div class="hero-avatar-ring"></div>
-          <div class="hero-avatar-inner">
-            <img src="https://avatars.githubusercontent.com/u/65265567?v=4" alt="Rathan Vengala" />
-          </div>
+          <div class="hero-avatar-inner" aria-label="Rathan Vengala initials">RV</div>
           <div class="hero-floating-badge">Open to Work</div>
         </div>
       </div>
@@ -185,7 +183,7 @@ function renderProjects() {
           <div class="project-content">
             <div class="project-meta">
               <span class="project-company-badge">${project.company}</span>
-              <span class="project-role-badge">${project.role}</span>
+              ${project.role ? `<span class="project-role-badge">${project.role}</span>` : ''}
             </div>
             <h3 class="project-title">${project.title}</h3>
             <p class="project-subtitle">${project.subtitle}</p>

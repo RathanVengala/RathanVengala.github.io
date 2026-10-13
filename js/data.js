@@ -9,7 +9,7 @@ const DATA = {
     summary: `I’m an Associate Staff Engineer at Nagarro with 5+ years of experience building scalable, event-driven backend systems using Java, Spring Boot, and AWS. I specialize in backend architecture, distributed systems, and CI/CD automation, and I am actively expanding into AI/LLM engineering, RAG, vector databases, embeddings, LangGraph, and agentic workflows.`,
     socials: {
       github: "https://github.com/RathanVengala",
-      linkedin: "https://www.linkedin.com/in/YOUR-LINKEDIN-ID"
+      linkedin: "https://www.linkedin.com/in/rathan-vengala"
     }
   },
 
@@ -19,21 +19,6 @@ const DATA = {
     { label: "Focus", value: "AI + Backend", icon: "🤖" },
     { label: "Delivery", value: "CI/CD", icon: "🚀" }
   ],
-
-  codingStats: {
-    leetcode: {
-      username: "rathan",
-      solved: "200+",
-      streak: "Active",
-      badges: ["50 Days", "100 Days"]
-    },
-    hackerrank: {
-      username: "rathan",
-      stars: "5★ Java",
-      badges: ["Java", "SQL", "Problem Solving", "Python"],
-      certifications: ["Java (Basic)", "Java (Intermediate)", "SQL (Basic)"]
-    }
-  },
 
   skills: [
     {
@@ -114,7 +99,6 @@ const DATA = {
       title: "Scalable Backend Systems",
       subtitle: "Event-Driven Microservices on AWS",
       company: "Nagarro / Tricon",
-      role: "Senior Backend Engineer",
       description: "Designed and delivered resilient distributed systems for high-throughput services, including message-driven integrations, caching strategies, and cloud-native deployment flows.",
       highlights: [
         "Built microservices with Spring Boot and event-driven integrations using Kafka and AWS messaging services.",
@@ -170,7 +154,7 @@ const DATA = {
   education: {
     institution: "JNTUH",
     degree: "B.Tech in Electronics and Communication Engineering (ECE)",
-    cgpa: "8.32",
+    cgpa: "7.9",
     period: "2017 – 2021"
   },
 
@@ -195,6 +179,13 @@ const DATA = {
       icon: "🎓",
       color: "indigo",
       description: "Built a strong engineering base with a focus on systems, communication technology, and disciplined problem solving."
+    },
+    {
+      title: "Extra Mile Award 2023",
+      org: "Tricon Infotech",
+      icon: "🏅",
+      color: "emerald",
+      description: "Recognized for going above and beyond in delivery, ownership, and impact while contributing to team success in 2023."
     }
   ]
 };
